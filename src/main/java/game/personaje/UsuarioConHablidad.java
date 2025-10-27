@@ -1,4 +1,6 @@
 package game.personaje;
 
-public interface usuarioConHablidad {
+// HaH
+public interface UsuarioConHablidad {
+    void userSkill(TipoAtaque ataque, Personaje enemigo);
 }
